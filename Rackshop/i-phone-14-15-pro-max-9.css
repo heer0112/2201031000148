@@ -1,0 +1,70 @@
+.whatsapp-image-2024-02-29-at-92 {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 29px;
+  transform: scale(1.062);
+}
+.wrapper-whatsapp-image-2024-022 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.addto-bag-text-child {
+  height: 60px;
+  width: 295px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  display: none;
+}
+.add-to-bag1 {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-italiana);
+  color: var(--color-black);
+  text-align: left;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1),
+    -1px 0 0 rgba(0, 0, 0, 0.1), 0-1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 2;
+}
+.addto-bag-text {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) 63px var(--padding-4xs) 61px;
+  background-color: var(--color-lightpink);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.iphone-14-15-pro-max-9 {
+  width: 100%;
+  height: 932px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 865px 0 var(--padding-6xs);
+  box-sizing: border-box;
+}

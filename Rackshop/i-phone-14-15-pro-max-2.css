@@ -1,0 +1,185 @@
+.clothes-3-icon {
+  height: 3707px;
+  width: 1754px;
+  position: absolute;
+  margin: 0 !important;
+  right: -985px;
+  bottom: -1628px;
+  object-fit: cover;
+  z-index: 1;
+}
+.container-child {
+  align-self: stretch;
+  height: 412px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.women {
+  position: relative;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 2;
+}
+.women-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.clothing,
+.line-separator {
+  position: relative;
+  z-index: 2;
+}
+.line-separator {
+  align-self: stretch;
+  height: 3px;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+}
+.clothing {
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1),
+    -1px 0 0 rgba(0, 0, 0, 0.1), 0-1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.accessory-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.connected-frames,
+.empty-frames,
+.empty-frames1,
+.footwear-label {
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.connected-frames,
+.footwear-label {
+  align-self: stretch;
+}
+.empty-frames,
+.empty-frames1 {
+  flex: 1;
+}
+.empty-frames1 {
+  margin-left: -297px;
+}
+.line-connector,
+.line-pair,
+.line-set {
+  align-self: stretch;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-connector,
+.line-pair {
+  flex-direction: column;
+}
+.inner-frame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0;
+  color: var(--color-black);
+}
+.clothes-area,
+.inner-frame,
+.rectangle-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.clothes-area {
+  width: 297px;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px 0;
+}
+.rectangle-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  color: var(--color-red);
+}
+.footwear {
+  position: relative;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1),
+    -1px 0 0 rgba(0, 0, 0, 0.1), 0-1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 2;
+}
+.accessories-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.footwear-text {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.accessories {
+  position: relative;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(0, 0, 0, 0.1),
+    -1px 0 0 rgba(0, 0, 0, 0.1), 0-1px 0 rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.footwear-label1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.container,
+.frame-with-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-with-line {
+  align-self: stretch;
+  height: 72px;
+  gap: 15px 0;
+}
+.container {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-black);
+  padding: var(--padding-11xl) 0;
+  gap: 23px 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-italiana);
+}
+.iphone-14-15-pro-max-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 94px 56px 426px 73px;
+  box-sizing: border-box;
+}

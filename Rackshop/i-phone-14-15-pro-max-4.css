@@ -1,0 +1,16 @@
+.whatsapp-image-2024-02-29-at-81 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 932px;
+  object-fit: cover;
+}
+.iphone-14-15-pro-max-4 {
+  width: 100%;
+  height: 932px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  cursor: pointer;
+}

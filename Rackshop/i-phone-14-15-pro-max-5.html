@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-phone-14-15-pro-max-5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iphone-14-15-pro-max-5">
+      <img class="clothes-4-icon" alt="" src="./public/clothes-4@2x.png" />
+
+      <div class="frame-name-frame-wrapper">
+        <div class="frame-name-frame">
+          <div class="frame-name-frame-child"></div>
+          <h1 class="add-address">Add Address</h1>
+        </div>
+      </div>
+      <section class="first-frame">
+        <div class="second-frame">
+          <div class="second-frame-child"></div>
+          <div class="state-text">
+            <h2 class="contact-info">Contact info</h2>
+          </div>
+          <input class="pincode-city-frame" placeholder="Name" type="text" />
+
+          <input
+            class="pincode-city-frame1"
+            placeholder="Phone Number(+91)"
+            type="text"
+          />
+        </div>
+        <form class="contact-info-frame">
+          <div class="contact-info-frame-child"></div>
+          <div class="address-info-frame">
+            <h2 class="address-info">Address info</h2>
+            <div class="pincode-city">
+              <input
+                class="state-region-frame"
+                placeholder="Pincode"
+                type="text"
+              />
+
+              <input
+                class="state-region-frame1"
+                placeholder="City"
+                type="text"
+              />
+            </div>
+          </div>
+          <input
+            class="contact-info-frame-item"
+            placeholder="State"
+            type="text"
+          />
+
+          <div class="address-frame">
+            <input
+              class="input-fields-container"
+              placeholder="Address"
+              type="text"
+            />
+
+            <div class="contact-frame">
+              <button class="city-pincode">
+                <div class="city-pincode-child"></div>
+                <div class="save-address" id="saveAddressText">
+                  Save address
+                </div>
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var saveAddressText = document.getElementById("saveAddressText");
+      if (saveAddressText) {
+        saveAddressText.addEventListener("click", function (e) {
+          window.location.href = "./i-phone1415-pro-max1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
